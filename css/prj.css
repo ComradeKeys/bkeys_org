@@ -1,0 +1,14 @@
+.prj-title h1 {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.prj-content article {
+    color: white;
+}
+
+.prj-content img {
+    display: inline-flex;
+    justify-content: flex-end;
+}
