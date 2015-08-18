@@ -2,14 +2,15 @@
 
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>About Brigham</title>
   <link rel="icon" type="image/png" href="/var/www/html/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
 
-    <img src  = "/var/www/html/brigham.png">
+  <img src  = "/var/www/html/brigham.png">
+
+  <h1>About Me</h1>
     <header role="banner">
       <nav role="navigation">
 	<ul>
@@ -21,6 +22,8 @@
 	</ul>
       </nav>
     </header>
+  
+  <article>Independant and determined, I offer professional and featureful websites at your leisure. I am a web developer named Brigham. Despite being new to professional web development, I will take a variety of projects in size and scale working with you individually. I am always looking for tools to help serve the needs of others.</article>
 
 </body>
 </html>

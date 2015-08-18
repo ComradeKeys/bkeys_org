@@ -1,27 +1,56 @@
+<!--Powered by emacs-->
 <!DOCTYPE HTML>
 
 <head>
   <meta charset="UTF-8">
   <title>Brigham Keys, Esq.</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="icon" type="image/png" href="/var/www/html/favicon.ico">
+  <script src="jquery.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-  <h1>Brigham Keys, Esq.</h1>
+  <div class="flex_container">
+    <header>
+      <a href="/var/www/html/index.html">
+	<img class="logo_pic" src="brigham.png">
+      </a>
+      <h1>Brigham Keys, Esq.</h1>
+    </header>
 
-  <img src  = "brigham.png">
-  <ul>
-    <li><a href  = "./index.html">Home</a></li>
-    <li><a href  = "./services/">Services</a></li>
-    <li><a href  = "#">Templates</a></li>
-    <li><a href  = "#">About Me</a></li>
-    <li><a href  = "#">Contact Me</a></li>
-  </ul>
+    <nav class="main_nav">
+      <a class="nav_but"href="/var/www/html/index.html">Home</a>
+      <a class="nav_but"href="/var/www/html/services/">Services</a>
+      <a class="nav_but"href="/var/www/html/templates/">Templates</a>
+      <a class="nav_but"href="/var/www/html/about_me">About Me</a>
+      <a class="nav_but"href="/var/www/html/contact_me">Contact Me</a>
+    </nav>
+    <hr class="nav_divide">
 
-  <hgroup>
-    <h2>Make an impression.</h2>
-    <h2>Building a website,</h2>
-    <h2>around your needs.</h2>
-  </hgroup>
+    <canvas id="main_art">
 
+    </canvas>
+
+    <hgroup class="main_text">
+      <h2>Make an impression.</h2>
+      <h3>Building websites</h3>
+      <p>around your needs.</p>
+    </hgroup>
+
+      <hr class="foot_divide">
+    <nav class="foot_nav">
+      <a class="nav_but"href="/var/www/html/index.html">Home</a>
+      <a class="nav_but"href="/var/www/html/services/">Services</a>
+      <a class="nav_but"href="/var/www/html/templates/">Templates</a>
+      <a class="nav_but"href="/var/www/html/about_me">About Me</a>
+      <a class="nav_con"href="/var/www/html/contact_me">Contact Me</a>
+    </nav>
+    <a href="https://www.gnu.org/software/emacs/"><img src="emacs-powered.png"></a>
+    <a href="https://www.fsf.org/campaigns/"><img src="fsf_mem.png"></a>
+  </footer>
+
+
+  </div>
 </body>
 </html>
