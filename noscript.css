@@ -1,6 +1,6 @@
 @font-face {
     font-family: LiberationSerif-Regular;
-    src: /var/www/html/fonts/LiberationSerif-Regular.tff;
+    src: /var/www/html/fonts/LiberationSerif-Regular.tff);
 }
 
  * {
@@ -10,11 +10,13 @@
 
  body {
      background-size: cover;
+     width: 99%;
  }
 
  .flex_container {
      display: flex;
      flex-direction: column;
+     width: 98.5%;
      height: 100vh;
      flex: 1;
  }
@@ -33,21 +35,34 @@
 
  h1 {
      align-self: flex-end;
+     color:blue;
      padding-bottom: 50%;
+     text-shadow: 0 1px 0 #ccc,
+     0 2px 0 #c9c9c9,
+     0 3px 0 #bbb,
+     0 4px 0 #b9b9b9,
+     0 5px 0 #aaa,
+     0 6px 1px rgba(0,0,0,.1),
+     0 0 5px rgba(0,0,0,.1),
+     0 1px 3px rgba(0,0,0,.3),
+     0 3px 5px rgba(0,0,0,.2),
+     0 5px 10px rgba(0,0,0,.25),
+     0 10px 10px rgba(0,0,0,.2),
+     0 20px 20px rgba(0,0,0,.15);
  }
 
  .main_nav {
 
      display: inline-flex;
+     width: 100%;
      justify-content: space-around;
+     display: flex;
      padding: 5px;
      font-size: x-Large;
  }
 
  .main_nav > .nav_but {
      text-decoration: none;
-     text-shadow: 0px 2px 3px #555;
-     padding: 5px;
  }
 
  .nav_divide {
@@ -60,25 +75,21 @@
      width: 100%;
  }
 
- .main_text > h2 {
+ .main_text >h2 {
      display: flex;
      padding: 20px;
-     justify-content: flex-start;
+     justify-content: flex-end;
  }
 
- .main_text > h3 {
+ .main_text >h3 {
      display: flex;
      justify-content: center;
- }
-
- .main_text > h4 {
-     display: flex;
-     justify-content: flex-end;
  }
 
  .foot_divide {
      border: 0;
      height: 1px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
  }
  
  .foot_nav > .nav_but {
@@ -88,5 +99,7 @@
 
  .foot_nav > .nav_con {
      float: right;
+     color: yellow;
      justify-content: flex-end;
  }
+
