@@ -13,18 +13,17 @@ var nav_but_mouse_handler  = function() {
 };
 
 var draw_circle  = function() {
-    var c=document.getElementById("main_art");
-    var ctx=c.getContext("2d");
-    ctx.beginPath();
-    ctx.arc(100,75,50,0,2*Math.PI);
-    ctx.stroke();
+
 }
 
 var set_background  = function() {
 
-    document.body.style.backgroundColor = "#FFF6B5"; 
+//    document.body.style.backgroundColor = "#FFF6B5"; 
 };
 
+/*
+Main function of javascript
+*/
 $(document).ready(function() {
 
     set_background();

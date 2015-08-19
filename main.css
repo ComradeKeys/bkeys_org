@@ -8,13 +8,11 @@
      text-decoration: none;
  }
 
- canvas {
-     width: 100%;
- }
-
  body {
      margin: 2%;
      padding: 0;
+     background: url(art.svg) no-repeat top left;
+     background-size: contain;
  }
 
  .flex_container {
@@ -109,3 +107,4 @@
      color: yellow;
      justify-content: flex-end;
  }
+
