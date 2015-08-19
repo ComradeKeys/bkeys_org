@@ -12,13 +12,23 @@ var nav_but_mouse_handler  = function() {
     });
 };
 
-var draw_circle  = function() {
-
-}
-
+/*
+Sets a background according to the time of day
+*/
 var set_background  = function() {
 
-//    document.body.style.backgroundColor = "#FFF6B5"; 
+    /*If it is dard outside*/
+    if(h < 7 || h > 20) {
+	document.body.style.backgroundColor = "rgb(34, 34, 34)";
+    }
+    /*It's before lunch break*/
+    else if(h > 7 && h < 12) {
+	document.body.style.backgroundColor = "rgb(152, 245, 255)";
+    }
+    /*It's the afternoon*/
+    else if(h > 12 && h < 20) {
+	document.body.style.backgroundColor = "rgb(255, 255, 255)";
+    }    
 };
 
 /*
