@@ -1,28 +1,55 @@
+<!--Powered by emacs-->
 <!DOCTYPE HTML>
 
 <head>
   <meta charset="UTF-8">
-  <title>Templates</title>
+  <title>Brigham Keys, Esq.</title>
+  <link rel="stylesheet" type="text/css" href="/var/www/html/main.css">
   <link rel="icon" type="image/png" href="/var/www/html/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="/var/www/html/jquery.js"></script>
+  <script type="text/javascript" src="/var/www/html/script.js"></script>
 </head>
 
 <body>
-
-    <img src  = "/var/www/html/brigham.png">
-    <header role="banner">
-      <nav role="navigation">
-	<ul>
-	  <li><a href="/var/www/html/index.html"><div>Home</div></a></li>
-	  <li><a href="/var/www/html/services/"><div>Services</div></a></li>
-	  <li><a href="/var/www/html/templates/"><div>Templates</div></a></li>
-	  <li><a href="/var/www/html/about_me"><div>About Me</div></a></li>
-	  <li><a href="/var/www/html/contact_me"><div>Contact Me</div></a></li>
-	</ul>
-      </nav>
+  <div class="flex_container">
+    <header>
+      <a href="/var/www/html/">
+	<img class="logo_pic" src="/var/www/html/brigham.png">
+      </a>
+      <h1>Brigham Keys, Esq.</h1>
     </header>
 
-<h2>Here are some sample, free as in </h2><a href="http://www.gnu.org/philosophy/free-sw.en.html">freedom</a><h2>webpages for you to use.</h2>
+    <nav class="main_nav">
+      <a class="nav_but" href="/var/www/html/index.html">Home</a>
+      <a class="nav_but" href="/var/www/html/services/">Services</a>
+      <a class="nav_active" href="/var/www/html/templates/">Templates</a>
+      <a class="nav_but" href="/var/www/html/about_me">About Me</a>
+      <a class="nav_but" href="/var/www/html/contact_me">Contact Me</a>
+    </nav>
+    <hr class="nav_divide">
 
+    <hgroup class="main_text">
+    </hgroup>
+
+  </div>
+  <hr class="foot_divide">
+
+  <footer>
+    <nav class="foot_nav">
+      <a class="foot_but"href="/var/www/html/index.html">Home</a>
+      <a class="foot_but"href="/var/www/html/services/">Services</a>
+      <a class="foot_but"href="/var/www/html/templates/">Templates</a>
+      <a class="foot_but"href="/var/www/html/about_me">About Me</a>
+      <a class="foot_con"href="/var/www/html/contact_me">Contact Me</a>
+    </nav>
+
+    <a href="https://www.gnu.org/software/emacs/" class="foot_links"><img src="/var/www/html/emacs-powered.png"></a>
+    <a href="https://www.fsf.org/campaigns/" class="foot_links"><img src="/var/www/html/fsf_mem.png"></a>
+
+    <article class="bio">
+      Brigham Keys, Esq. is an independant web developer, based in Houston, Texas. In my free time I study philosophy, astronomy, and geometry; that is, when I am not writing code. I love talking, especially about unrelated subjects. Email me your thoughts at bkeys@bkeys.org!
+    </article>
+
+  </footer>
 </body>
 </html>
