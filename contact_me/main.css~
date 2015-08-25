@@ -11,6 +11,7 @@
 
  body {
      background-image: linear-gradient(to bottom right, #0fc0fc, blue);
+     font-size: x-large;
  }
 
  .flex_container {
@@ -86,11 +87,7 @@
      width: 100%;
  }
  
- article {
-     font-size: x-large;
- }
  .contact_table {
-     font-size: x-large;
      color: red;
      padding-top: 5%;
      display: flex;
