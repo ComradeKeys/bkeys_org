@@ -1,0 +1,67 @@
+@font-face {
+    font-family: lib_sans;
+    src: url(../fonts/LiberationSans-Regular.ttf);
+}
+
+* {
+    font-family: lib_sans;
+    list-style: none;
+}
+
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin-top:10%;
+    margin-bottom:15%;
+    background: #0fc0fc;
+    background: linear-gradient(#0fc0fc, #0047AB);
+    color: white;
+}
+
+.text-success {
+    color: white;
+    font-size: 48px;
+}
+
+div {
+    color: white;
+}
+
+article > a {
+    color: yellow;
+}
+
+li > a {
+    color: white;
+}
+
+article > a:hover {
+    color: yellow;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.btn-default {
+    color: #0fc0fc;
+}
+
+.footer {
+    max-height: 10%;
+}
+
+/*for the gallery page*/
+.btn-large {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+		     line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}

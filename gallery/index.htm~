@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bkeys's gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.ico">
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+	<a href="../" class="navbar-brand">bkeys software development</a>
+	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<div class="collapse navbar-collapse navHeaderCollapse">
+	  <div class="collapse navbar-collapse navHeaderCollapse">
+	    <ul class="nav navbar-nav navbar-right">
+	      <li><a href="../">Home</a></li>
+	      <li class="active"><a href=".">Gallery</a></li>
+	      <li><a href="../services/">Services</a></li>
+	      <li><a href="../about_me/">About Me</a></li>
+	      <li><a href="../contact_me/">Contact Me</a></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron text-center">
+	<h1><span class="text-success">Software and Projects by Brigham Keys, Esq.</span></h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-md-2">
+	  </div>
+	<div class="text-justify col-md-8">
+	  <article>
+	    I have several projects in the public domain, the repositories for these projects can be found <a href="https://github.com/ComradeKeys">in my github profile</a>. All the projects and software I create are under <a href="http://www.gnu.org/philosophy/free-sw.en.html">free licenses and are free software</a>. They can be downloaded individually from github, however I write about my projects, their uses on this website to give some personal insight.
+	  </article>
+	  <ul>
+	    <li>
+	      <button class="btn-block btn-large">
+		<a href="">3D_snake</a>
+	      </button>
+	    </li>
+	    <li>
+	      <button class="btn-block btn-large">
+		<a href="">bkeys_org</a>
+	      </button>
+	    </li>
+	    <li>
+	      <button class="btn-block btn-large">
+		<a href="">gl_less</a>
+	      </button>
+	    </li>
+	    <li>
+	      <button class="btn-block btn-large">
+		<a href="">kc_lib</a>
+	      </button>
+	    </li>
+	    <li>
+	      <button class="btn-block btn-large">
+		<a href="">sudoku</a>
+	      </button>
+	    </li>
+	  </ul>
+	</div>
+      </div>
+
+    </div>
+    
+    <div class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+	<a href="http://www.gnu.org/software/emacs/"><img class="pull-left navbar-text" src="../img/emacs-powered.png"></a>
+	<p class="pull-left navbar-text">This site is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero License Version 3</a></p>
+	<!-- put tbe button to email me in this footer on the right side-->
+      </div>
+    </div>
+
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+	<div class="modal-content">
+	  <form class="form-horizontal">
+	    <div class="modal-header">
+	      <h4>Contact Brigham Keys, Esq.</h4>
+	    </div>
+	    <div class="modal-body">
+	      
+	      <div class="modal-footer">
+	      </div>
+	    </div>
+	</div>
+      </div>
+
+      <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+      <script src="../js/bootstrap.js"></script>
+  </body>
+</html>

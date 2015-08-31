@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bkeys software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+	<a href="." class="navbar-brand">bkeys software development</a>
+	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<div class="collapse navbar-collapse navHeaderCollapse">
+	  <div class="collapse navbar-collapse navHeaderCollapse">
+	    <ul class="nav navbar-nav navbar-right">
+	      <li class="active"><a href=".">Home</a></li>
+	      <li><a href="gallery/">Gallery</a></li>
+	      <li><a href="services/">Services</a></li>
+	      <li><a href="about_me/">About Me</a></li>
+	      <li><a href="contact_me">Contact Me</a></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron text-center">
+	<h1><span class="text-success">Brigham Keys, Esq. Software Development</span></h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-md-4">
+	  <h3 class="text-center">Who is Brigham Keys, Esq.?</h3>
+	  <article>
+	    I am a software developer based in Junction City, Kansas.
+	    I enjoy geometry, astronomy, and philosophy amongst other subjects;
+	    that is when I am not creating software!</article>
+	</div>
+
+	<div class="col-md-4">
+	  <h3 class="text-center">Experience</h3>
+	  <article>
+	    I have technical knowledge in many areas and languages,
+	    but if you would like to look at my work feel free to head over
+	    to <a href="https://github.com/ComradeKeys">my github repository</a> to see all of the software that I have published. It is all <a href="http://www.gnu.org/philosophy/free-sw.en.html">free as in freedom!</a>
+	  </article>
+	</div>
+
+	<div class="col-md-4">
+	  <h3 class="text-center">Want to talk?</h3>
+	  <article>
+	    Want to talk to me? I will love to recieve your email!
+	  </article>
+	  <div class="btn btn-default" type="button"><a href="#contact" data-toggle="modal">Email Me!</a></div>
+	</div>
+
+      </div>
+    </div>
+    
+    <div class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+	<a href="http://www.gnu.org/software/emacs/"><img class="pull-left navbar-text" src="img/emacs-powered.png"></a>
+	<p class="pull-left navbar-text">This site is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero License Version 3</a></p>
+	<!-- put tbe button to email me in this footer on the right side-->
+      </div>
+    </div>
+
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+	<div class="modal-content">
+	  <form class="form-horizontal">
+	    <div class="modal-header">
+	      <h4>Contact Brigham Keys, Esq.</h4>
+	    </div>
+	    <div class="modal-body">
+	      
+	      <div class="modal-footer">
+	      </div>
+	    </div>
+	</div>
+      </div>
+
+      <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+      <script src="js/bootstrap.js"></script>
+  </body>
+</html>
