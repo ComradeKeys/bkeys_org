@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'liberation_sans_regular';
+    src: url('fonts/LiberationSans-Regular.ttf') format('ttf');
+}
+
+body {
+    font-family: 'liberation_sans_regular', sans-serif;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #0fc0fc, #0047AB);
+    margin-bottom: 400px;
+}
+
+.jumbotron {
+    position: relative;
+    background: #000 url("../img/jumbo.png") center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar > .container > a >img {
+    max-height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+.navbar-fixed-bottom {
+    max-height: 35px;
+}
+
+a {
+    color: black;
+}
+p {
+    font-size: Large;
+}
+article {
+    font-size: Large;
+}
+
+hr { border: 0;
+     height: 2px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 075), rgba(0, 0, 0, 0)); }

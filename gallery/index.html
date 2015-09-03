@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Brigham Keys Software Development web Programming Programmer gallery bkeys bkeysesq">
+    <meta name="author" content="Brigham Keys, Esq.">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>bkeys gallery</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="."><img src="../img/bhke.svg"></a>
+	</div>
+	<div id="navbar" class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav navbar-right">
+	    <li><a href="../">Home</a></li>
+	    <li class="active"><a href=".">Gallery</a></li>
+	    <li><a href="../about_me/">About Me</a></li>
+	    <li><a href="../contact_me/">Contact Me</a></li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+
+	<h1 class="text-center">My Gallery</h1>
+
+      </div><!-- /.container -->
+    </div>
+
+    <div class="col-md-2">
+    </div>
+    
+    <div class="container">
+      <div class="col-md-8">
+
+	<article class="text-justify">
+	  All of the software I have written is published in public Git repos on my <a href="https://github.com/ComradeKeys/">Github profile</a>. The source code can be viewed there and downloaded. All of the software I have published is under <a href="http://www.gnu.org/philosophy/free-sw.en.html">free licenses</a>. On this page I present screenshots from the projects currenty and talk briefly about each.
+	</article>
+	<hr>
+	<h2 class="text-center">3D_Snake</h2>
+	<img class="center-block img-responsive" src="../img/snake.png">
+	<article>
+	  3D Snake is my implementation of the classic arcade game Nibbles. Also known as Snake. My version is a little simpler in that I do not have obstacles implemented (yet). The only real difference is I used OpenGL to tilt the board giving it a 3D visual effect. The board itself also features transparency.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">bkeys_org</h2>
+	<img class="center-block img-responsive" src="../img/bkeys_org.png">
+ 	<article>
+	  Is the website you are currently viewing. I use this website to tell the world about myself, and what I can (and like) to do. I used Bootstrap 3 to create this website, however I am excited about the <a href="http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/">4th bootstrap release</a>, though I do not think it is mature yet for real use. I try my best to make sure this site conforms to all web standards and that is renders correctly on all browsers.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">GL_Less</h2>
+	<img class="center-block img-responsive" src="../img/gl_less.png">
+	<article>
+	  These are lessons that are taught in the ACM OpenGL class at BYU-Idaho, they imply that a person has a basic understanding of the C++11 programming langauge, which is the first language taught at the school. They are supposed to elevate a person's understanding of the library to a higher level. I am collaborating on this lesson series with Dane Christensen.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">KC_Lib</h2>
+	<img class="center-block img-responsive" src="../img/kc_lib.png">
+	<article>
+	  Another project I am working on with Dane, this is a game engine of sorts. It handles graphics, collision, audio, and even networking. Dane has done alot of the work on this project; I was responsible for the audio implementation.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">Sudoku</h2>
+	<img class="center-block img-responsive" src="../img/sudoku.png">
+	<article>
+	  For my Intro to Software Development class, our final project was to create a command line implementation of the classic game Sudoku. After I learned how to use OpenGL and FreeGlut, I decided I was going to take the day and make my own graphical version of the game.
+	</article>
+	<hr>
+	
+      </div>
+    </div>
+    <hr>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container navbar-text">
+	<a href="https://www.gnu.org/software/emacs/"><img src="../img/emacs-powered.png"></a>
+	Website is under the <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License</a>
+	<a href="http://www.fsf.org/associate/"><img class="pull-right" src="../img/fsf_mem.png"></a>
+      </div>
+    </nav>
+    
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Footer should not render if person is on a small screen-->
+    <script>
+      var $iW = $(window).innerWidth();
+      $(document).ready(function() {
+      if($iW < 992) {
+               $(".navbar-fixed-bottom").hide();
+	       }
+	       });
+	       </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

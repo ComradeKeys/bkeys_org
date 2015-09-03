@@ -1,58 +1,83 @@
-<!--Powered by emacs-->
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Brigham Keys Software Development web Programming Programmer bkeys bkeysesq">
+    <meta name="author" content="Brigham Keys, Esq.">
+    <link rel="icon" href="img/favicon.ico">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Brigham Keys, Esq.</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="icon" type="image/png" href="../favicon.ico">
-  <script src="../jquery.js"></script>
-  <script type="text/javascript" src="../script.js"></script>
-</head>
+    <title>About bkeys</title>
 
-<body>
-  <div class="flex_container">
-    <header>
-      <a href="../">
-	<img class="logo_pic" src="../brigham.png">
-      </a>
-      <h1>Brigham Keys, Esq.</h1>
-    </header>
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
 
-    <nav class="main_nav">
-      <a class="nav_but" href="../">Home</a>
-      <a class="nav_but" href="../services/">Services</a>
-      <a class="nav_but" href="../templates/">Templates</a>
-      <a class="nav_active" href="../about_me">About Me</a>
-      <a class="nav_but" href="../contact_me">Contact Me</a>
-    </nav>
-    <hr class="nav_divide">
+  <body>
 
-    <hgroup class="main_text">
-<article>
-I am a software developer based in Houston, Texas. I love to study many different areas but my favorite activity is writing code. I tend to be very wordy when I talk to people. I am also a huge advocate of <a class="me_link" href="http://www.gnu.org/philosophy/free-sw.en.html">free software</a> (sometimes confused with <a class="me_link" href="https://en.wikipedia.org/wiki/Gratis_versus_libre">gratis</a>), amongst other causes. I maintain this website and the template websites found in the appropriate section, which are available for free as in freedom, and gratis. Feel free to <a class="me_link" href="../contact_me/">contact me</a> at bkeys@bkeys.org
-</article>
-    </hgroup>
-
-  </div>
-  <hr class="foot_divide">
-
-  <footer>
-    <nav class="foot_nav">
-      <a class="foot_but"href="../index.html">Home</a>
-      <a class="foot_but"href="../services/">Services</a>
-      <a class="foot_but"href="../templates/">Templates</a>
-      <a class="foot_but"href="../about_me">About Me</a>
-      <a class="foot_con"href="../contact_me">Contact Me</a>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="."><img src="../img/bhke.svg"></a>
+	</div>
+	<div id="navbar" class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav navbar-right">
+	    <li><a href="../">Home</a></li>
+	    <li><a href=".">Gallery</a></li>
+	    <li><a href="../about_me/">About Me</a></li>
+	    <li><a href="../contact_me/">Contact Me</a></li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+      </div>
     </nav>
 
-    <a href="https://www.gnu.org/software/emacs/" class="foot_links"><img src="../emacs-powered.png"></a>
-    <a href="https://www.fsf.org/campaigns/" class="foot_links"><img src="../fsf_mem.png"></a>
+    <div class="jumbotron">
+      <div class="container">
 
-    <article class="bio">
-      Brigham Keys, Esq. is an independant software developer, based in Houston, Texas. In my free time I study philosophy, astronomy, and geometry; that is, when I am not writing code. I love talking, especially about unrelated subjects. Email me your thoughts at bkeys@bkeys.org!
-    </article>
+	<h1 class="text-center">About Brigham</h1>
 
-  </footer>
-</body>
+      </div><!-- /.container -->
+    </div>
+
+    <div class="col-md-2">
+    </div>
+    
+    <div class="container">
+      <div class="col-md-8">
+	<article class="text-justify">I love to write software, there are many aspects about technology that interest me greatly which can make it hard to put it down. I find geometry very interesting, inparticular the <a href="https://en.wikipedia.org/wiki/Platonic_solid">Platonic solids</a>. Aviation and astronomy are also two very fascinating subjects, as I also enjoy the hobby of flying RC aircrafts. I am a supporter and Associate Member of the <a href="http://www.fsf.org">Free Software Foundation</a>. If you would like to talk about any of these subjects feel free to <a href="../contact_me/">get in touch </a>.
+	</article>
+      </div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container navbar-text">
+	<a href="https://www.gnu.org/software/emacs/"><img src="../img/emacs-powered.png"></a>
+	Website is under the <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License</a>
+	<a href="http://www.fsf.org/associate/"><img class="pull-right" src="../img/fsf_mem.png"></a>
+      </div>
+    </nav>
+    
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Footer should not render if person is on a small screen-->
+    <script>
+      var $iW = $(window).innerWidth();
+      $(document).ready(function() {
+      if($iW < 992) {
+               $(".navbar-fixed-bottom").hide();
+	       }
+	       });
+	       </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
