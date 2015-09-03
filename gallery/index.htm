@@ -1,157 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>bkeys's gallery</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Brigham Keys Software Development web Programming Programmer gallery bkeys bkeysesq">
+    <meta name="author" content="Brigham Keys, Esq.">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>bkeys gallery</title>
+
+    <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/styles.css" rel="stylesheet">
-    <link rel="icon" href="../img/favicon.ico">
+    <link href="../css/style.css" rel="stylesheet">
   </head>
+
   <body>
-    <div class="navbar navbar-default navbar-fixed-top">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-	<a href="../" class="navbar-brand">bkeys software development</a>
-	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-	  <span class="icon-bar"></span>
-	  <span class="icon-bar"></span>
-	  <span class="icon-bar"></span>
-	</button>
-	<div class="collapse navbar-collapse navHeaderCollapse">
-	  <div class="collapse navbar-collapse navHeaderCollapse">
-	    <ul class="nav navbar-nav navbar-right">
-	      <li><a href="../">Home</a></li>
-	      <li class="active"><a href=".">Gallery</a></li>
-	      <li><a href="../services/">Services</a></li>
-	      <li><a href="../about_me/">About Me</a></li>
-	      <li><a href="../contact_me/">Contact Me</a></li>
-	    </ul>
-	  </div>
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	    <span class="sr-only">Toggle navigation</span>
+	    &#9776;
+	  </button>
+	  <a class="navbar-brand" href="."><img src="../img/bhke.svg"></a>
 	</div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="jumbotron text-center">
-	<h1><span class="text-success">Software and Projects by Brigham Keys, Esq.</span></h1>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-	<div class="col-md-2">
-	</div>
-	<div class="text-justify col-md-8">
-	  <article class="text-justify">
-	    I have several projects in the public domain, the repositories for these projects can be found <a href="https://github.com/ComradeKeys">in my github profile</a>. All the projects and software I create are under <a href="http://www.gnu.org/philosophy/free-sw.en.html">free licenses and are free software</a>. They can be downloaded individually from github, however I write about my projects, their uses on this website to give some personal insight. Read about it below or click a button to jump to the corresponding project.
-	  </article>
-<strong>
-	  <ul>
-	    <li><a href="#snake">3D_Snake</a></li>
-	    <li><a href="#bkeys">bkeys_org</a></li>
-	    <li><a href="#gl">GL_Less</a></li>
-	    <li><a href="#kc">KC_Lib</a></li>
-	    <li><a href="#sudoku">Sudoku</a></li>
+	<div id="navbar" class="collapse navbar-collapse">
+	  <ul class="nav navbar-nav navbar-right">
+	    <li><a href="../">Home</a></li>
+	    <li class="active"><a href=".">Gallery</a></li>
+	    <li><a href="../about_me/">About Me</a></li>
+	    <li><a href="../contact_me/">Contact Me</a></li>
 	  </ul>
-</strong>
-	  
-	  <a name="snake"></a>
-	  <article>
-	    <h2>3D_Snake</h2>
-	    <div class="text-justify" name="snake">
-	      3D_Snake began during the summer of 2015, it is a remake of the classical arcade game Nibbles, commonly referred to as Snake. The only exception about my version is the board is tilted, giving it a 3D effect. It is almost complete. It has little features currently, however it should feature customizable controls when I complete it. Some of the utilities I used for this project are:
-	    </div>
-	    <ul>
-	    <p>Utilities used:</p>
-	      <li>GCC C compiler</li>
-	      <li>FreeGlut</li>
-	      <li>OpenGL</li>
-	    </ul>
-	    <ul>
-	    <p>Languages used:</p>
-	      <li>C99</li>
-	    </ul>
+	</div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-	    <a name="bkeys"></a>
-	    <h2>bkeys_org</h2>
-	    <article class="text-justify">
-	      bkeys_org is the website you are looking at right now. It has had some rough times when I was still learning web design and development, this website is under constant maintenance and is being updated often.
-	    </article>
-	    <ul>
-	    <p>Utilities used:</p>
-	      <li>Seamonkey Web Suite</li>
-	      <li>Twitter's bootstrap framework</li>
-	    </ul>
-	    <ul>
-	    <p>Languages used:</p>
-	      <li>HTML</li>
-	      <li>CSS3</li>
-	      <li>JavaScript/jQuery</li>
-	    </ul>
+    <div class="jumbotron">
+      <div class="container">
 
-      	    <a name="gl"></a>
-	    <h2>GL_Less</h2>
-	    <article class="text-justify">
-	      GL_Less is a collection of presentations I created with Dane Christensen for an ACM sanctioned class taught at BYU-Idaho. It's main aim is to take a person completely inexperienced with graphics and to elevate them to an intermediate level of understanding, covering GLSL, shaders, and other subjects surrounding OpenGL. I do not teach the class personally however Dane is teaching them the fall of 2015.
-	    </article>
-	    
-	    <ul>
-	    <p>Utilities used:</p>
-	      <li>pdflatex engine</li>
-	      <li>evince document viewer</li>
-	      <li>OpenGL</li>
-	      <li>FreeGlut</li>
-	      <li>SDL2</li>
-	    </ul>
-	    <ul>
-	    <p>Languages used:</p>
-	      <li>LaTeX</li>
-	      <li>Shutter (for screenshots)</li>
-	    </ul>
+	<h1 class="text-center">My Gallery</h1>
 
-	    <a name="kc"></a>
-	    <h2>KC_Lib</h2>
-	    <article class="text-justify">
-	      A game engine of sorts I created with Dane Christensen. It handles networking over LAN, graphics, collision, and audio (.wav and vorbis files).
-	    </article>
-	    <ul>
-	    <p>Utilities used:</p>
-	      <li>OpenGL</li>
-	      <li>Ogg Vorbis</li>
-	      <li>GCC g++ compiler</li>
-	      <li>ALUT</li>
-	      <li>OpenAl</li>
-	    </ul>
-	    <ul>
-	    <p>Languages used:</p>
-	      <li>C++11</li>
-	    </ul>
+      </div><!-- /.container -->
+    </div>
 
-      	    <a name="sudoku"></a>
-	    <h2>Sudoku</h2>
-	    <article class="text-justify">
-	      A small project, in my Intro to Software Development class at BYU-Idaho, we had to create a command line version of the popular game sudoku, and I took a few days to create a graphical version of the game that utilized the mouse as well as the keyboard.
-	    </article>
-	    <ul>
-	    <p>Utilities used:</p>
-	      <li>GCC C compiler</li>
-	      <li>FreeGlut</li>
-	      <li>OpenGL</li>
-	    </ul>
-	    <ul>
-	    <p>Languages used:</p>
-	      <li>C99</li>
-	    </ul>
-	    
-	    <div class="navbar navbar-default navbar-fixed-bottom footer">
-	      <div class="container">
-		<a href="http://www.fsf.org/"><img class="pull-right navbar-text" src="../img/fsf_mem.png"></a>
-		<a href="http://www.gnu.org/software/emacs/"><img class="pull-left navbar-text" src="../img/emacs-powered.png"></a>
-		<p class="pull-left navbar-text">This site is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero License Version 3</a></p>
-		<!-- put tbe button to email me in this footer on the right side-->
-	      </div>
-	    </div>
+    <div class="col-md-2">
+    </div>
+    
+    <div class="container">
+      <div class="col-md-8">
 
-	    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
-	    <script src="../js/bootstrap.js"></script>
+	<article class="text-justify">
+	  All of the software I have written is published in public Git repos. The source code can be viewed there and downloaded. All of the software I have published is under <a href="http://www.gnu.org/philosophy/free-sw.en.html">free licenses</a>. On this page I present screenshots from the projects currenty and talk briefly about each.
+	</article>
+	<hr>
+	<h2 class="text-center">3D_Snake</h2>
+	<img class="center-block img-responsive" src="../img/snake.png">
+	<article>
+	  3D Snake is my implementation of the classic arcade game Nibbles. Also known as Snake. My version is a little simpler in that I do not have obstacles implemented (yet). The only real difference is I used OpenGL to tilt the board giving it a 3D visual effect. The board itself also features transparency.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">bkeys_org</h2>
+	<img class="center-block img-responsive" src="../img/bkeys_org.png">
+ 	<article>
+	  Is the website you are currently viewing. I use this website to tell the world about myself, and what I can (and like) to do. I used Bootstrap 3 to create this website, however I am excited about the <a href="http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/">4th bootstrap release</a>, though I do not think it is mature yet for real use. I try my best to make sure this site conforms to all web standards and that is renders correctly on all browsers.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">GL_Less</h2>
+	<img class="center-block img-responsive" src="../img/gl_less.png">
+	<article>
+	  These are lessons that are taught in the ACM OpenGL class at BYU-Idaho, they imply that a person has a basic understanding of the C++11 programming langauge, which is the first language taught at the school. They are supposed to elevate a person's understanding of the library to a higher level. I am collaborating on this lesson series with Dane Christensen.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">KC_Lib</h2>
+	<img class="center-block img-responsive" src="../img/kc_lib.png">
+	<article>
+	  Another project I am working on with Dane, this is a game engine of sorts. It handles graphics, collision, audio, and even networking. Dane has done alot of the work on this project; I was responsible for the audio implementation.
+	</article>
+	<hr>
+	
+	<h2 class="text-center">Sudoku</h2>
+	<img class="center-block img-responsive" src="../img/sudoku.png">
+	<article>
+	  For my Intro to Software Development class, our final project was to create a command line implementation of the classic game Sudoku. After I learned how to use OpenGL and FreeGlut, I decided I was going to take the day and make my own graphical version of the game.
+	</article>
+	<hr>
+	
+      </div>
+    </div>
+    <hr>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container navbar-text">
+	<a href="https://www.gnu.org/software/emacs/"><img src="../img/emacs-powered.png"></a>
+	Website is under the <a href="http://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License</a>
+	<a href="http://www.fsf.org/associate/"><img class="pull-right" src="../img/fsf_mem.png"></a>
+      </div>
+    </nav>
+    
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Footer should not render if person is on a small screen-->
+    <script>
+      var $iW = $(window).innerWidth();
+      $(document).ready(function() {
+      if($iW < 992) {
+               $(".navbar-fixed-bottom").hide();
+	       }
+	       });
+	       </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
