@@ -3,12 +3,16 @@
     src: url('fonts/LiberationSans-Regular.ttf') format('ttf');
 }
 
+.background {
+}
+
 body {
     font-family: 'liberation_sans_regular', sans-serif;
     color: white;
     height: 100vh;
+    margin-bottom: 200px;
     background: linear-gradient(to bottom right, #0fc0fc, #0047AB);
-    margin-bottom: 400px;
+    background-size: cover;
 }
 
 .jumbotron {
